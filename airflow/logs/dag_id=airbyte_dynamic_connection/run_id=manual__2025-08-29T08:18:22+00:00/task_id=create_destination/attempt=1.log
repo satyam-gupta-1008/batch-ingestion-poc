@@ -1,0 +1,23 @@
+[2025-08-29T08:20:20.546+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: airbyte_dynamic_connection.create_destination manual__2025-08-29T08:18:22+00:00 [queued]>
+[2025-08-29T08:20:20.551+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: airbyte_dynamic_connection.create_destination manual__2025-08-29T08:18:22+00:00 [queued]>
+[2025-08-29T08:20:20.551+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-29T08:20:20.551+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-08-29T08:20:20.551+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-29T08:20:20.558+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): create_destination> on 2025-08-29 08:18:22+00:00
+[2025-08-29T08:20:20.560+0000] {standard_task_runner.py:55} INFO - Started process 4019 to run task
+[2025-08-29T08:20:20.562+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'airbyte_dynamic_connection', 'create_destination', 'manual__2025-08-29T08:18:22+00:00', '--job-id', '128', '--raw', '--subdir', 'DAGS_FOLDER/dynamic-airbyte-with-***.py', '--cfg-path', '/tmp/tmp2f3b1_h7']
+[2025-08-29T08:20:20.563+0000] {standard_task_runner.py:83} INFO - Job 128: Subtask create_destination
+[2025-08-29T08:20:20.594+0000] {task_command.py:388} INFO - Running <TaskInstance: airbyte_dynamic_connection.create_destination manual__2025-08-29T08:18:22+00:00 [running]> on host 966b32814b47
+[2025-08-29T08:20:20.622+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=airbyte_dynamic_connection
+AIRFLOW_CTX_TASK_ID=create_destination
+AIRFLOW_CTX_EXECUTION_DATE=2025-08-29T08:18:22+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-08-29T08:18:22+00:00
+[2025-08-29T08:20:20.712+0000] {python.py:177} INFO - Done. Returned value was: None
+[2025-08-29T08:20:20.716+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=airbyte_dynamic_connection, task_id=create_destination, execution_date=20250829T081822, start_date=20250829T082020, end_date=20250829T082020
+[2025-08-29T08:20:20.746+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-08-29T08:20:20.758+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

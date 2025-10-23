@@ -1,0 +1,22 @@
+selectors:
+  - name: daily_average_only
+    description: "Run only the daily_average model"
+    definition:
+      method: fqn
+      value: mart.daily_average,mart.weather_report
+  - name: daily_max_or_weather
+    description: "Run daily_max or weather_report"
+    definition:
+      method: fqn
+      value: mart.weather_report
+
+  # - name: daily_max_or_weather
+  #   description: "Run daily_max or weather_report"
+  #   definition:
+  #     method: and
+  #     value:
+  #       clauses:
+  #         - method: fqn
+  #           value: mart.daily_max
+  #         - method: fqn
+  #           value: mart.weather_report

@@ -1,0 +1,27 @@
+[2025-08-31T14:18:12.323+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: airbyte_dynamic_connection.trigger_airbyte_sync manual__2025-08-31T14:17:04+00:00 [queued]>
+[2025-08-31T14:18:12.329+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: airbyte_dynamic_connection.trigger_airbyte_sync manual__2025-08-31T14:17:04+00:00 [queued]>
+[2025-08-31T14:18:12.329+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-31T14:18:12.329+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-08-31T14:18:12.329+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-31T14:18:12.334+0000] {taskinstance.py:1300} INFO - Executing <Task(AirbyteTriggerSyncOperator): trigger_airbyte_sync> on 2025-08-31 14:17:04+00:00
+[2025-08-31T14:18:12.338+0000] {standard_task_runner.py:55} INFO - Started process 897 to run task
+[2025-08-31T14:18:12.339+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'airbyte_dynamic_connection', 'trigger_airbyte_sync', 'manual__2025-08-31T14:17:04+00:00', '--job-id', '181', '--raw', '--subdir', 'DAGS_FOLDER/dynamic-airbyte-with-***.py', '--cfg-path', '/tmp/tmpupv5_51f']
+[2025-08-31T14:18:12.339+0000] {standard_task_runner.py:83} INFO - Job 181: Subtask trigger_airbyte_sync
+[2025-08-31T14:18:12.367+0000] {task_command.py:388} INFO - Running <TaskInstance: airbyte_dynamic_connection.trigger_airbyte_sync manual__2025-08-31T14:17:04+00:00 [running]> on host 966b32814b47
+[2025-08-31T14:18:12.399+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=airbyte_dynamic_connection
+AIRFLOW_CTX_TASK_ID=trigger_airbyte_sync
+AIRFLOW_CTX_EXECUTION_DATE=2025-08-31T14:17:04+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-08-31T14:17:04+00:00
+[2025-08-31T14:18:12.403+0000] {base.py:73} INFO - Using connection ID 'test-dynamic-airbyte-with-***' for task execution.
+[2025-08-31T14:18:12.557+0000] {airbyte.py:77} INFO - Job 142 was submitted to Airbyte Server
+[2025-08-31T14:18:12.557+0000] {airbyte.py:79} INFO - Waiting for job 142 to complete
+[2025-08-31T14:18:42.591+0000] {base.py:73} INFO - Using connection ID 'test-dynamic-airbyte-with-***' for task execution.
+[2025-08-31T14:18:42.624+0000] {airbyte.py:81} INFO - Job 142 completed successfully
+[2025-08-31T14:18:42.636+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=airbyte_dynamic_connection, task_id=trigger_airbyte_sync, execution_date=20250831T141704, start_date=20250831T141812, end_date=20250831T141842
+[2025-08-31T14:18:42.651+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-08-31T14:18:42.659+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

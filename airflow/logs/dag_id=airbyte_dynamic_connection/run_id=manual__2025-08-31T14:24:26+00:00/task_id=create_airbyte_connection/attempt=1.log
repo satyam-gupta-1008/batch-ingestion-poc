@@ -1,0 +1,30 @@
+[2025-08-31T14:24:54.609+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: airbyte_dynamic_connection.create_airbyte_connection manual__2025-08-31T14:24:26+00:00 [queued]>
+[2025-08-31T14:24:54.615+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: airbyte_dynamic_connection.create_airbyte_connection manual__2025-08-31T14:24:26+00:00 [queued]>
+[2025-08-31T14:24:54.616+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-31T14:24:54.616+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-08-31T14:24:54.616+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-31T14:24:54.622+0000] {taskinstance.py:1300} INFO - Executing <Task(AirbyteConnectionCreator): create_airbyte_connection> on 2025-08-31 14:24:26+00:00
+[2025-08-31T14:24:54.625+0000] {standard_task_runner.py:55} INFO - Started process 1588 to run task
+[2025-08-31T14:24:54.627+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'airbyte_dynamic_connection', 'create_airbyte_connection', 'manual__2025-08-31T14:24:26+00:00', '--job-id', '187', '--raw', '--subdir', 'DAGS_FOLDER/dynamic-airbyte-with-***.py', '--cfg-path', '/tmp/tmpgrhb5aub']
+[2025-08-31T14:24:54.627+0000] {standard_task_runner.py:83} INFO - Job 187: Subtask create_airbyte_connection
+[2025-08-31T14:24:54.662+0000] {task_command.py:388} INFO - Running <TaskInstance: airbyte_dynamic_connection.create_airbyte_connection manual__2025-08-31T14:24:26+00:00 [running]> on host 966b32814b47
+[2025-08-31T14:24:54.697+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=airbyte_dynamic_connection
+AIRFLOW_CTX_TASK_ID=create_airbyte_connection
+AIRFLOW_CTX_EXECUTION_DATE=2025-08-31T14:24:26+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-08-31T14:24:26+00:00
+[2025-08-31T14:24:54.930+0000] {dynamic-airbyte-with-airflow.py:114} INFO - ✅ Created Airbyte connection: fa32ba2e-262c-46c0-abd4-103756bc8964
+[2025-08-31T14:25:14.950+0000] {dynamic-airbyte-with-airflow.py:121} INFO - Airbyte connection already created: fa32ba2e-262c-46c0-abd4-103756bc8964
+[2025-08-31T14:25:15.033+0000] {dynamic-airbyte-with-airflow.py:138} INFO - Job(s) still running for connection fa32ba2e-262c-46c0-abd4-103756bc8964
+[2025-08-31T14:25:35.052+0000] {dynamic-airbyte-with-airflow.py:121} INFO - Airbyte connection already created: fa32ba2e-262c-46c0-abd4-103756bc8964
+[2025-08-31T14:25:35.076+0000] {dynamic-airbyte-with-airflow.py:138} INFO - Job(s) still running for connection fa32ba2e-262c-46c0-abd4-103756bc8964
+[2025-08-31T14:25:55.085+0000] {dynamic-airbyte-with-airflow.py:121} INFO - Airbyte connection already created: fa32ba2e-262c-46c0-abd4-103756bc8964
+[2025-08-31T14:25:55.128+0000] {dynamic-airbyte-with-airflow.py:141} INFO - No running jobs for connection fa32ba2e-262c-46c0-abd4-103756bc8964. Proceeding.
+[2025-08-31T14:25:55.128+0000] {base.py:228} INFO - Success criteria met. Exiting.
+[2025-08-31T14:25:55.133+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=airbyte_dynamic_connection, task_id=create_airbyte_connection, execution_date=20250831T142426, start_date=20250831T142454, end_date=20250831T142555
+[2025-08-31T14:25:55.179+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-08-31T14:25:55.194+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

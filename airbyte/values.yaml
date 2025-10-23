@@ -1,0 +1,17 @@
+global:
+  auth:
+    enabled: false
+    security:
+      cookieSecureSetting: "false"
+
+  env_vars:
+    {
+      AIRBYTE_API_AUTH_HEADER_NAME: X-Airbyte-Auth,
+      AIRBYTE_API_AUTH_HEADER_VALUE: my-secret-token,
+    }
+
+worker:
+  env_vars:
+    {
+      AIRBYTE_API_HOST: http://airbyte-abctl-workload-api-server-svc:8007/api/public,
+    }

@@ -1,0 +1,378 @@
+[2025-08-27T00:46:29.042+0000] {processor.py:153} INFO - Started process (PID=19487) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T00:46:29.043+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T00:46:29.043+0000] {logging_mixin.py:137} INFO - [2025-08-27T00:46:29.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T00:46:29.055+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T00:46:29.067+0000] {logging_mixin.py:137} INFO - [2025-08-27T00:46:29.066+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T00:46:29.080+0000] {logging_mixin.py:137} INFO - [2025-08-27T00:46:29.080+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T00:46:29.087+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.047 seconds
+[2025-08-27T02:21:50.950+0000] {processor.py:153} INFO - Started process (PID=19567) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T02:21:50.951+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T02:21:50.951+0000] {logging_mixin.py:137} INFO - [2025-08-27T02:21:50.951+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T02:21:50.963+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T02:21:50.975+0000] {logging_mixin.py:137} INFO - [2025-08-27T02:21:50.975+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T02:21:50.986+0000] {logging_mixin.py:137} INFO - [2025-08-27T02:21:50.986+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T02:21:50.993+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.045 seconds
+[2025-08-27T02:37:29.635+0000] {processor.py:153} INFO - Started process (PID=19667) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T02:37:29.636+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T02:37:29.636+0000] {logging_mixin.py:137} INFO - [2025-08-27T02:37:29.636+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T02:37:29.651+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T02:37:29.664+0000] {logging_mixin.py:137} INFO - [2025-08-27T02:37:29.663+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T02:37:29.675+0000] {logging_mixin.py:137} INFO - [2025-08-27T02:37:29.675+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T02:37:29.682+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.051 seconds
+[2025-08-27T03:02:25.995+0000] {processor.py:153} INFO - Started process (PID=19767) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T03:02:25.996+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T03:02:25.996+0000] {logging_mixin.py:137} INFO - [2025-08-27T03:02:25.996+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T03:02:26.010+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T03:02:26.022+0000] {logging_mixin.py:137} INFO - [2025-08-27T03:02:26.022+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T03:02:26.039+0000] {logging_mixin.py:137} INFO - [2025-08-27T03:02:26.038+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T03:02:26.046+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.053 seconds
+[2025-08-27T03:13:53.245+0000] {processor.py:153} INFO - Started process (PID=19866) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T03:13:53.245+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T03:13:53.246+0000] {logging_mixin.py:137} INFO - [2025-08-27T03:13:53.246+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T03:13:53.275+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T03:13:53.299+0000] {logging_mixin.py:137} INFO - [2025-08-27T03:13:53.299+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T03:13:53.315+0000] {logging_mixin.py:137} INFO - [2025-08-27T03:13:53.315+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T03:13:53.323+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.082 seconds
+[2025-08-27T03:33:08.602+0000] {processor.py:153} INFO - Started process (PID=19946) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T03:33:08.604+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T03:33:08.605+0000] {logging_mixin.py:137} INFO - [2025-08-27T03:33:08.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T03:33:08.635+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T03:33:08.662+0000] {logging_mixin.py:137} INFO - [2025-08-27T03:33:08.662+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T03:33:08.687+0000] {logging_mixin.py:137} INFO - [2025-08-27T03:33:08.687+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T03:33:08.707+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.108 seconds
+[2025-08-27T04:45:09.794+0000] {processor.py:153} INFO - Started process (PID=20046) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T04:45:09.795+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T04:45:09.796+0000] {logging_mixin.py:137} INFO - [2025-08-27T04:45:09.796+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T04:45:09.822+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T04:45:09.846+0000] {logging_mixin.py:137} INFO - [2025-08-27T04:45:09.846+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T04:45:09.868+0000] {logging_mixin.py:137} INFO - [2025-08-27T04:45:09.868+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T04:45:09.884+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.095 seconds
+[2025-08-27T04:49:55.413+0000] {processor.py:153} INFO - Started process (PID=20146) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T04:49:55.413+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T04:49:55.413+0000] {logging_mixin.py:137} INFO - [2025-08-27T04:49:55.413+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T04:49:55.428+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T04:49:55.445+0000] {logging_mixin.py:137} INFO - [2025-08-27T04:49:55.445+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T04:49:55.465+0000] {logging_mixin.py:137} INFO - [2025-08-27T04:49:55.465+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T04:49:55.477+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.067 seconds
+[2025-08-27T05:35:08.725+0000] {processor.py:153} INFO - Started process (PID=20226) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T05:35:08.726+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T05:35:08.727+0000] {logging_mixin.py:137} INFO - [2025-08-27T05:35:08.727+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T05:35:08.766+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T05:35:08.792+0000] {logging_mixin.py:137} INFO - [2025-08-27T05:35:08.792+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T05:35:08.808+0000] {logging_mixin.py:137} INFO - [2025-08-27T05:35:08.808+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T05:35:08.819+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.098 seconds
+[2025-08-27T06:12:36.652+0000] {processor.py:153} INFO - Started process (PID=20326) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T06:12:36.660+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T06:12:36.661+0000] {logging_mixin.py:137} INFO - [2025-08-27T06:12:36.660+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T06:12:36.691+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T06:12:36.714+0000] {logging_mixin.py:137} INFO - [2025-08-27T06:12:36.714+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T06:12:36.731+0000] {logging_mixin.py:137} INFO - [2025-08-27T06:12:36.731+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T06:12:36.745+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.096 seconds
+[2025-08-27T06:55:18.583+0000] {processor.py:153} INFO - Started process (PID=20426) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T06:55:18.583+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T06:55:18.584+0000] {logging_mixin.py:137} INFO - [2025-08-27T06:55:18.584+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T06:55:18.596+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T06:55:18.608+0000] {logging_mixin.py:137} INFO - [2025-08-27T06:55:18.608+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T06:55:18.618+0000] {logging_mixin.py:137} INFO - [2025-08-27T06:55:18.618+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T06:55:18.625+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.044 seconds
+[2025-08-27T07:53:51.906+0000] {processor.py:153} INFO - Started process (PID=20526) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T07:53:51.907+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T07:53:51.909+0000] {logging_mixin.py:137} INFO - [2025-08-27T07:53:51.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T07:53:51.929+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T07:53:51.942+0000] {logging_mixin.py:137} INFO - [2025-08-27T07:53:51.942+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T07:53:51.953+0000] {logging_mixin.py:137} INFO - [2025-08-27T07:53:51.953+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T07:53:51.962+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.063 seconds
+[2025-08-27T08:23:39.203+0000] {processor.py:153} INFO - Started process (PID=20606) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T08:23:39.203+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T08:23:39.203+0000] {logging_mixin.py:137} INFO - [2025-08-27T08:23:39.203+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T08:23:39.216+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T08:23:39.227+0000] {logging_mixin.py:137} INFO - [2025-08-27T08:23:39.227+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T08:23:39.236+0000] {logging_mixin.py:137} INFO - [2025-08-27T08:23:39.236+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T08:23:39.244+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.044 seconds
+[2025-08-27T09:35:50.455+0000] {processor.py:153} INFO - Started process (PID=20706) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:35:50.456+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T09:35:50.456+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:35:50.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:35:50.465+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:35:50.477+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:35:50.477+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T09:35:50.489+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:35:50.489+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T09:35:50.496+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.044 seconds
+[2025-08-27T09:36:49.301+0000] {processor.py:153} INFO - Started process (PID=20806) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:36:49.302+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T09:36:49.302+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:36:49.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:36:49.321+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:36:49.337+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:36:49.337+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T09:36:49.350+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:36:49.350+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T09:36:49.358+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.061 seconds
+[2025-08-27T09:38:52.576+0000] {processor.py:153} INFO - Started process (PID=20906) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:38:52.576+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T09:38:52.577+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:38:52.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:38:52.586+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:38:52.598+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:38:52.597+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T09:38:52.608+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:38:52.608+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T09:38:52.616+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.042 seconds
+[2025-08-27T09:39:38.653+0000] {processor.py:153} INFO - Started process (PID=20986) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:39:38.654+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T09:39:38.654+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:39:38.654+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:39:38.667+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:39:38.681+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:39:38.681+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T09:39:38.694+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:39:38.694+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T09:39:38.703+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.054 seconds
+[2025-08-27T09:50:05.884+0000] {processor.py:153} INFO - Started process (PID=21086) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:50:05.885+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T09:50:05.886+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:50:05.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:50:05.904+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T09:50:05.927+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:50:05.927+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T09:50:05.942+0000] {logging_mixin.py:137} INFO - [2025-08-27T09:50:05.942+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T09:50:05.954+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.073 seconds
+[2025-08-27T11:12:45.592+0000] {processor.py:153} INFO - Started process (PID=21186) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:12:45.593+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T11:12:45.593+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:12:45.593+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:12:45.609+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:12:45.623+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:12:45.623+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T11:12:45.636+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:12:45.636+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T11:12:45.644+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.054 seconds
+[2025-08-27T11:34:30.904+0000] {processor.py:153} INFO - Started process (PID=21266) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:34:30.905+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T11:34:30.906+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:34:30.905+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:34:30.921+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:34:30.934+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:34:30.934+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T11:34:30.947+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:34:30.947+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T11:34:30.956+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.054 seconds
+[2025-08-27T11:51:12.698+0000] {processor.py:153} INFO - Started process (PID=21366) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:51:12.698+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T11:51:12.699+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:51:12.699+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:51:12.715+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:51:12.727+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:51:12.727+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T11:51:12.738+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:51:12.738+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T11:51:12.745+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.050 seconds
+[2025-08-27T11:53:11.469+0000] {processor.py:153} INFO - Started process (PID=21466) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:53:11.470+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T11:53:11.471+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:53:11.471+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:53:11.485+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:53:11.498+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:53:11.498+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T11:53:11.509+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:53:11.509+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T11:53:11.516+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.050 seconds
+[2025-08-27T11:58:52.880+0000] {processor.py:153} INFO - Started process (PID=21566) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:58:52.881+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T11:58:52.881+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:58:52.881+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:58:52.896+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T11:58:52.909+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:58:52.909+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T11:58:52.921+0000] {logging_mixin.py:137} INFO - [2025-08-27T11:58:52.921+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T11:58:52.930+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.052 seconds
+[2025-08-27T12:11:19.894+0000] {processor.py:153} INFO - Started process (PID=21646) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:11:19.895+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T12:11:19.896+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:11:19.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:11:19.929+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:11:19.960+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:11:19.960+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T12:11:19.975+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:11:19.975+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T12:11:19.986+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.097 seconds
+[2025-08-27T12:14:24.214+0000] {processor.py:153} INFO - Started process (PID=21746) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:14:24.215+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T12:14:24.215+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:14:24.215+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:14:24.234+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:14:24.255+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:14:24.254+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T12:14:24.268+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:14:24.268+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T12:14:24.277+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.065 seconds
+[2025-08-27T12:27:56.830+0000] {processor.py:153} INFO - Started process (PID=21846) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:27:56.831+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T12:27:56.831+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:27:56.831+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:27:56.847+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:27:56.859+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:27:56.859+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T12:27:56.869+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:27:56.869+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T12:27:56.877+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.049 seconds
+[2025-08-27T12:38:25.043+0000] {processor.py:153} INFO - Started process (PID=21926) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:38:25.043+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T12:38:25.044+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:38:25.044+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:38:25.063+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:38:25.084+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:38:25.084+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T12:38:25.100+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:38:25.100+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T12:38:25.111+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.071 seconds
+[2025-08-27T12:57:11.932+0000] {processor.py:153} INFO - Started process (PID=22026) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:57:11.932+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T12:57:11.933+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:57:11.933+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:57:11.946+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:57:11.962+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:57:11.962+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T12:57:11.975+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:57:11.975+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T12:57:11.985+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.055 seconds
+[2025-08-27T12:57:42.510+0000] {processor.py:153} INFO - Started process (PID=22126) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:57:42.511+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T12:57:42.512+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:57:42.512+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:57:42.525+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T12:57:42.538+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:57:42.538+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T12:57:42.549+0000] {logging_mixin.py:137} INFO - [2025-08-27T12:57:42.549+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T12:57:42.557+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.049 seconds
+[2025-08-27T13:27:10.285+0000] {processor.py:153} INFO - Started process (PID=22226) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T13:27:10.285+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T13:27:10.286+0000] {logging_mixin.py:137} INFO - [2025-08-27T13:27:10.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T13:27:10.293+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T13:27:10.304+0000] {logging_mixin.py:137} INFO - [2025-08-27T13:27:10.304+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T13:27:10.316+0000] {logging_mixin.py:137} INFO - [2025-08-27T13:27:10.316+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T13:27:10.324+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.041 seconds
+[2025-08-27T13:30:11.819+0000] {processor.py:153} INFO - Started process (PID=22306) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T13:30:11.820+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T13:30:11.821+0000] {logging_mixin.py:137} INFO - [2025-08-27T13:30:11.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T13:30:11.841+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T13:30:11.858+0000] {logging_mixin.py:137} INFO - [2025-08-27T13:30:11.858+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T13:30:11.872+0000] {logging_mixin.py:137} INFO - [2025-08-27T13:30:11.872+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T13:30:11.887+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.070 seconds
+[2025-08-27T13:37:06.131+0000] {processor.py:153} INFO - Started process (PID=22406) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T13:37:06.132+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T13:37:06.132+0000] {logging_mixin.py:137} INFO - [2025-08-27T13:37:06.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T13:37:06.153+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T13:37:06.164+0000] {logging_mixin.py:137} INFO - [2025-08-27T13:37:06.164+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T13:37:06.175+0000] {logging_mixin.py:137} INFO - [2025-08-27T13:37:06.175+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T13:37:06.185+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.056 seconds
+[2025-08-27T13:51:00.991+0000] {processor.py:153} INFO - Started process (PID=22506) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T13:51:00.991+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T13:51:00.992+0000] {logging_mixin.py:137} INFO - [2025-08-27T13:51:00.991+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T13:51:01.015+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T13:51:01.037+0000] {logging_mixin.py:137} INFO - [2025-08-27T13:51:01.037+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T13:51:01.057+0000] {logging_mixin.py:137} INFO - [2025-08-27T13:51:01.057+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T13:51:01.068+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.080 seconds
+[2025-08-27T14:01:05.479+0000] {processor.py:153} INFO - Started process (PID=22586) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T14:01:05.479+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T14:01:05.479+0000] {logging_mixin.py:137} INFO - [2025-08-27T14:01:05.479+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T14:01:05.492+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T14:01:05.504+0000] {logging_mixin.py:137} INFO - [2025-08-27T14:01:05.504+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T14:01:05.515+0000] {logging_mixin.py:137} INFO - [2025-08-27T14:01:05.515+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T14:01:05.522+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.046 seconds
+[2025-08-27T14:41:12.140+0000] {processor.py:153} INFO - Started process (PID=22686) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T14:41:12.141+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T14:41:12.141+0000] {logging_mixin.py:137} INFO - [2025-08-27T14:41:12.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T14:41:12.159+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T14:41:12.171+0000] {logging_mixin.py:137} INFO - [2025-08-27T14:41:12.171+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T14:41:12.184+0000] {logging_mixin.py:137} INFO - [2025-08-27T14:41:12.184+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T14:41:12.195+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.057 seconds
+[2025-08-27T14:43:53.843+0000] {processor.py:153} INFO - Started process (PID=22786) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T14:43:53.844+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T14:43:53.845+0000] {logging_mixin.py:137} INFO - [2025-08-27T14:43:53.844+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T14:43:53.867+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T14:43:53.885+0000] {logging_mixin.py:137} INFO - [2025-08-27T14:43:53.885+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T14:43:53.904+0000] {logging_mixin.py:137} INFO - [2025-08-27T14:43:53.904+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T14:43:53.916+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.076 seconds
+[2025-08-27T14:54:30.807+0000] {processor.py:153} INFO - Started process (PID=22886) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T14:54:30.808+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T14:54:30.809+0000] {logging_mixin.py:137} INFO - [2025-08-27T14:54:30.809+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T14:54:31.114+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T14:54:31.159+0000] {logging_mixin.py:137} INFO - [2025-08-27T14:54:31.158+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T14:54:31.182+0000] {logging_mixin.py:137} INFO - [2025-08-27T14:54:31.182+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T14:54:31.197+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.392 seconds
+[2025-08-27T15:01:38.525+0000] {processor.py:153} INFO - Started process (PID=22966) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:01:38.526+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T15:01:38.527+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:01:38.527+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:01:38.543+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:01:38.563+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:01:38.563+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T15:01:38.582+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:01:38.581+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T15:01:38.595+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.073 seconds
+[2025-08-27T15:08:09.192+0000] {processor.py:153} INFO - Started process (PID=23066) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:08:09.193+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T15:08:09.193+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:08:09.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:08:09.212+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:08:09.221+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:08:09.221+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T15:08:09.231+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:08:09.231+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T15:08:09.242+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.052 seconds
+[2025-08-27T15:18:51.701+0000] {processor.py:153} INFO - Started process (PID=23166) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:18:51.701+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T15:18:51.702+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:18:51.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:18:51.716+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:18:51.730+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:18:51.729+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T15:18:51.741+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:18:51.740+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T15:18:51.748+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.050 seconds
+[2025-08-27T15:19:36.445+0000] {processor.py:153} INFO - Started process (PID=23246) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:19:36.446+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T15:19:36.447+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:19:36.447+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:19:36.464+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:19:36.480+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:19:36.480+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T15:19:36.492+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:19:36.492+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T15:19:36.500+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.059 seconds
+[2025-08-27T15:21:52.497+0000] {processor.py:153} INFO - Started process (PID=23346) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:21:52.498+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T15:21:52.498+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:21:52.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:21:52.514+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:21:52.528+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:21:52.528+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T15:21:52.539+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:21:52.539+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T15:21:52.547+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.053 seconds
+[2025-08-27T15:25:58.197+0000] {processor.py:153} INFO - Started process (PID=23446) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:25:58.197+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T15:25:58.197+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:25:58.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:25:58.209+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T15:25:58.221+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:25:58.221+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T15:25:58.231+0000] {logging_mixin.py:137} INFO - [2025-08-27T15:25:58.231+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T15:25:58.238+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.044 seconds
+[2025-08-27T16:00:39.496+0000] {processor.py:153} INFO - Started process (PID=23546) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:00:39.497+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T16:00:39.497+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:00:39.497+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:00:39.519+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:00:39.531+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:00:39.531+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T16:00:39.544+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:00:39.544+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T16:00:39.553+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.060 seconds
+[2025-08-27T16:14:52.570+0000] {processor.py:153} INFO - Started process (PID=23626) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:14:52.571+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T16:14:52.571+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:14:52.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:14:52.597+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:14:52.627+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:14:52.627+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T16:14:52.645+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:14:52.644+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T16:14:52.657+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.090 seconds
+[2025-08-27T16:23:09.770+0000] {processor.py:153} INFO - Started process (PID=23726) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:23:09.771+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T16:23:09.772+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:23:09.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:23:09.791+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:23:09.814+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:23:09.814+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T16:23:09.833+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:23:09.833+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T16:23:09.844+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.077 seconds
+[2025-08-27T16:24:53.552+0000] {processor.py:153} INFO - Started process (PID=23826) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:24:53.553+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T16:24:53.553+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:24:53.553+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:24:53.572+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:24:53.588+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:24:53.588+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T16:24:53.600+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:24:53.600+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T16:24:53.607+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.058 seconds
+[2025-08-27T16:30:06.565+0000] {processor.py:153} INFO - Started process (PID=23926) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:30:06.565+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T16:30:06.566+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:30:06.565+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:30:06.578+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:30:06.617+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:30:06.617+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T16:30:06.639+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:30:06.639+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T16:30:06.658+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.095 seconds
+[2025-08-27T16:44:02.307+0000] {processor.py:153} INFO - Started process (PID=24006) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:44:02.308+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T16:44:02.308+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:44:02.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:44:02.327+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T16:44:02.353+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:44:02.353+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T16:44:02.372+0000] {logging_mixin.py:137} INFO - [2025-08-27T16:44:02.372+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T16:44:02.386+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.082 seconds
+[2025-08-27T18:19:16.806+0000] {processor.py:153} INFO - Started process (PID=24106) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T18:19:16.807+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T18:19:16.807+0000] {logging_mixin.py:137} INFO - [2025-08-27T18:19:16.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T18:19:16.823+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T18:19:16.837+0000] {logging_mixin.py:137} INFO - [2025-08-27T18:19:16.837+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T18:19:16.850+0000] {logging_mixin.py:137} INFO - [2025-08-27T18:19:16.850+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T18:19:16.858+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.055 seconds
+[2025-08-27T19:39:49.320+0000] {processor.py:153} INFO - Started process (PID=24206) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T19:39:49.321+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T19:39:49.322+0000] {logging_mixin.py:137} INFO - [2025-08-27T19:39:49.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T19:39:49.346+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T19:39:49.363+0000] {logging_mixin.py:137} INFO - [2025-08-27T19:39:49.363+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T19:39:49.377+0000] {logging_mixin.py:137} INFO - [2025-08-27T19:39:49.377+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T19:39:49.388+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.070 seconds
+[2025-08-27T21:01:23.957+0000] {processor.py:153} INFO - Started process (PID=24286) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T21:01:23.957+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T21:01:23.957+0000] {logging_mixin.py:137} INFO - [2025-08-27T21:01:23.957+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T21:01:23.969+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T21:01:23.981+0000] {logging_mixin.py:137} INFO - [2025-08-27T21:01:23.981+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T21:01:23.991+0000] {logging_mixin.py:137} INFO - [2025-08-27T21:01:23.991+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T21:01:23.998+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.044 seconds
+[2025-08-27T21:51:49.162+0000] {processor.py:153} INFO - Started process (PID=24386) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T21:51:49.164+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T21:51:49.165+0000] {logging_mixin.py:137} INFO - [2025-08-27T21:51:49.165+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T21:51:49.193+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T21:51:49.246+0000] {logging_mixin.py:137} INFO - [2025-08-27T21:51:49.245+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T21:51:49.262+0000] {logging_mixin.py:137} INFO - [2025-08-27T21:51:49.262+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T21:51:49.278+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.121 seconds
+[2025-08-27T23:29:05.376+0000] {processor.py:153} INFO - Started process (PID=24486) to work on /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T23:29:05.377+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dynamic-airbyte-with-airflow.py for tasks to queue
+[2025-08-27T23:29:05.377+0000] {logging_mixin.py:137} INFO - [2025-08-27T23:29:05.377+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T23:29:05.392+0000] {processor.py:753} INFO - DAG(s) dict_keys(['airbyte_dynamic_connection']) retrieved from /opt/airflow/dags/dynamic-airbyte-with-airflow.py
+[2025-08-27T23:29:05.405+0000] {logging_mixin.py:137} INFO - [2025-08-27T23:29:05.405+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-08-27T23:29:05.415+0000] {logging_mixin.py:137} INFO - [2025-08-27T23:29:05.415+0000] {dag.py:3441} INFO - Setting next_dagrun for airbyte_dynamic_connection to None, run_after=None
+[2025-08-27T23:29:05.422+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dynamic-airbyte-with-airflow.py took 0.049 seconds

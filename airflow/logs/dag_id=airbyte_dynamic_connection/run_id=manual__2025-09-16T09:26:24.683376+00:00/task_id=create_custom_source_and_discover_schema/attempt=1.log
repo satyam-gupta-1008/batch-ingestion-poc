@@ -1,0 +1,25 @@
+{"timestamp":"2025-09-16T09:26:26.243686","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-16T09:26:26.245090","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/airbyte-and-dbt-with-airflow.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-16T09:26:26.268365","level":"info","event":"Trying to parse the dbt project using dbt ls cache cosmos_cache__airbyte_dynamic_connection__dbt_dynamic_alias...","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-16T09:26:26.313062","level":"info","event":"Cosmos performance: time to calculate cache identifier cosmos_cache__airbyte_dynamic_connection__dbt_dynamic_alias for current version: 0.03627266699913889","logger":"cosmos.cache"}
+{"timestamp":"2025-09-16T09:26:26.313227","level":"info","event":"Cosmos performance [5db252634e93|258]: The cache size for cosmos_cache__airbyte_dynamic_connection__dbt_dynamic_alias is 4058","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-16T09:26:26.313571","level":"info","event":"Cosmos performance: Cache hit for cosmos_cache__airbyte_dynamic_connection__dbt_dynamic_alias - 7f6c90e7b7fbd54d95119723ba858828,d41d8cd98f00b204e9800998ecf8427e","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-16T09:26:26.313968","level":"info","event":"Total nodes: 5","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-16T09:26:26.314040","level":"info","event":"Total filtered nodes: 5","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-16T09:26:26.314167","level":"info","event":"Cosmos performance (airbyte_dynamic_connection__dbt_dynamic_alias) -  [5db252634e93|258]: It took 0.0459s to parse the dbt project for DAG using LoadMode.DBT_LS_CACHE","logger":"cosmos.converter"}
+{"timestamp":"2025-09-16T09:26:26.314643","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'packages.yml', 'dependencies.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-16T09:26:26.315717","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'packages.yml', 'dependencies.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-16T09:26:26.316546","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'packages.yml', 'dependencies.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-16T09:26:26.317051","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'packages.yml', 'dependencies.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-16T09:26:26.317481","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'packages.yml', 'dependencies.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-16T09:26:26.317917","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'packages.yml', 'dependencies.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-16T09:26:26.319475","level":"info","event":"Cosmos performance (airbyte_dynamic_connection__dbt_dynamic_alias) - [5db252634e93|258]: It took 0.00538s to build the Airflow DAG.","logger":"cosmos.converter"}
+{"timestamp":"2025-09-16T09:26:26.321412","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/pydantic/main.py:463: UserWarning: Pydantic serializer warnings:\n  PydanticSerializationUnexpectedValue(Expected `str` - serialized value may not be as expected [input_value={'version': '7f6c90e7b7fb...d': 'dbt_dynamic_alias'}, input_type=dict])\n  return self.__pydantic_serializer__.to_python(\n","logger":"py.warnings"}
+{"timestamp":"2025-09-16T09:26:26.343753Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T09:26:26.343905Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T09:26:26.345080Z","level":"info","event":"Current task name:create_custom_source_and_discover_schema","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T09:26:26.345171Z","level":"info","event":"Dag name:airbyte_dynamic_connection","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T09:26:34.816243","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-16T09:26:34.836373Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T09:26:34.836563Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T09:26:34.839117Z","level":"info","event":"Task operator:<Task(PythonOperator): create_custom_source_and_discover_schema>","chan":"stdout","logger":"task"}

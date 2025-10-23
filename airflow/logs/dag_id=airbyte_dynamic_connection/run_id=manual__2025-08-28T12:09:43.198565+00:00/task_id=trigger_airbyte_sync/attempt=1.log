@@ -1,0 +1,132 @@
+[2025-08-28T12:10:26.457+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: airbyte_dynamic_connection.trigger_airbyte_sync manual__2025-08-28T12:09:43.198565+00:00 [queued]>
+[2025-08-28T12:10:26.464+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: airbyte_dynamic_connection.trigger_airbyte_sync manual__2025-08-28T12:09:43.198565+00:00 [queued]>
+[2025-08-28T12:10:26.464+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-28T12:10:26.464+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-08-28T12:10:26.464+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-28T12:10:26.470+0000] {taskinstance.py:1300} INFO - Executing <Task(AirbyteTriggerSyncOperator): trigger_airbyte_sync> on 2025-08-28 12:09:43.198565+00:00
+[2025-08-28T12:10:26.473+0000] {standard_task_runner.py:55} INFO - Started process 368 to run task
+[2025-08-28T12:10:26.475+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'airbyte_dynamic_connection', 'trigger_airbyte_sync', 'manual__2025-08-28T12:09:43.198565+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/dynamic-airbyte-with-***.py', '--cfg-path', '/tmp/tmpfe8js9rx']
+[2025-08-28T12:10:26.475+0000] {standard_task_runner.py:83} INFO - Job 94: Subtask trigger_airbyte_sync
+[2025-08-28T12:10:26.508+0000] {task_command.py:388} INFO - Running <TaskInstance: airbyte_dynamic_connection.trigger_airbyte_sync manual__2025-08-28T12:09:43.198565+00:00 [running]> on host 966b32814b47
+[2025-08-28T12:10:26.542+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=airbyte_dynamic_connection
+AIRFLOW_CTX_TASK_ID=trigger_airbyte_sync
+AIRFLOW_CTX_EXECUTION_DATE=2025-08-28T12:09:43.198565+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-08-28T12:09:43.198565+00:00
+[2025-08-28T12:10:26.546+0000] {base.py:73} INFO - Using connection ID 'test-dynamic-airbyte-with-***' for task execution.
+[2025-08-28T12:10:26.772+0000] {airbyte.py:77} INFO - Job 27 was submitted to Airbyte Server
+[2025-08-28T12:10:26.772+0000] {airbyte.py:79} INFO - Waiting for job 27 to complete
+[2025-08-28T12:11:18.451+0000] {connection.py:432} ERROR - Unable to retrieve connection from secrets backend (MetastoreBackend). Checking subsequent secrets backend.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3361, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 425, in get_connection_from_secrets
+    conn = secrets_backend.get_connection(conn_id=conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/secrets/metastore.py", line 39, in get_connection
+    conn = session.query(Connection).filter(Connection.conn_id == conn_id).first()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2824, in first
+    return self.limit(1)._iter().first()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2919, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1713, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1553, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3315, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3394, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3365, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2199, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3361, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-08-28T12:11:21.991+0000] {airbyte.py:72} INFO - Retrying. Airbyte API returned server error when waiting for job: The conn_id `test-dynamic-airbyte-with-airflow` isn't defined
+[2025-08-28T12:11:52.031+0000] {base.py:73} INFO - Using connection ID 'test-dynamic-airbyte-with-***' for task execution.
+[2025-08-28T12:12:22.248+0000] {base.py:73} INFO - Using connection ID 'test-dynamic-airbyte-with-***' for task execution.
+[2025-08-28T12:12:52.328+0000] {base.py:73} INFO - Using connection ID 'test-dynamic-airbyte-with-***' for task execution.
+[2025-08-28T12:12:52.447+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/airbyte/operators/airbyte.py", line 80, in execute
+    self.hook.wait_for_job(job_id=self.job_id, wait_seconds=self.wait_seconds, timeout=self.timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/airbyte/hooks/airbyte.py", line 84, in wait_for_job
+    raise Exception(f"Encountered unexpected state `{state}` for job_id `{job_id}`")
+Exception: Encountered unexpected state `failed` for job_id `27`
+[2025-08-28T12:12:52.459+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=airbyte_dynamic_connection, task_id=trigger_airbyte_sync, execution_date=20250828T120943, start_date=20250828T121026, end_date=20250828T121252
+[2025-08-28T12:12:52.475+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 94 for task trigger_airbyte_sync (Encountered unexpected state `failed` for job_id `27`; 368)
+[2025-08-28T12:12:52.520+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2025-08-28T12:12:52.537+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

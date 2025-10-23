@@ -1,0 +1,93 @@
+[2025-08-28T11:59:58.497+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: airbyte_dynamic_connection.trigger_airbyte_sync manual__2025-08-28T11:59:15.459149+00:00 [queued]>
+[2025-08-28T11:59:58.503+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: airbyte_dynamic_connection.trigger_airbyte_sync manual__2025-08-28T11:59:15.459149+00:00 [queued]>
+[2025-08-28T11:59:58.503+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-28T11:59:58.503+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-08-28T11:59:58.503+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-28T11:59:58.508+0000] {taskinstance.py:1300} INFO - Executing <Task(AirbyteTriggerSyncOperator): trigger_airbyte_sync> on 2025-08-28 11:59:15.459149+00:00
+[2025-08-28T11:59:58.511+0000] {standard_task_runner.py:55} INFO - Started process 3768 to run task
+[2025-08-28T11:59:58.513+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'airbyte_dynamic_connection', 'trigger_airbyte_sync', 'manual__2025-08-28T11:59:15.459149+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/dynamic-airbyte-with-***.py', '--cfg-path', '/tmp/tmp4jqpy6_g']
+[2025-08-28T11:59:58.513+0000] {standard_task_runner.py:83} INFO - Job 54: Subtask trigger_airbyte_sync
+[2025-08-28T11:59:58.544+0000] {task_command.py:388} INFO - Running <TaskInstance: airbyte_dynamic_connection.trigger_airbyte_sync manual__2025-08-28T11:59:15.459149+00:00 [running]> on host 966b32814b47
+[2025-08-28T11:59:58.579+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=airbyte_dynamic_connection
+AIRFLOW_CTX_TASK_ID=trigger_airbyte_sync
+AIRFLOW_CTX_EXECUTION_DATE=2025-08-28T11:59:15.459149+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-08-28T11:59:15.459149+00:00
+[2025-08-28T11:59:58.584+0000] {base.py:73} INFO - Using connection ID 'test-dynamic-airbyte-with-***' for task execution.
+[2025-08-28T11:59:58.776+0000] {airbyte.py:77} INFO - Job 22 was submitted to Airbyte Server
+[2025-08-28T11:59:58.776+0000] {airbyte.py:79} INFO - Waiting for job 22 to complete
+[2025-08-28T12:00:28.794+0000] {base.py:73} INFO - Using connection ID 'test-dynamic-airbyte-with-***' for task execution.
+[2025-08-28T12:00:58.951+0000] {base.py:73} INFO - Using connection ID 'test-dynamic-airbyte-with-***' for task execution.
+[2025-08-28T12:01:29.037+0000] {base.py:73} INFO - Using connection ID 'test-dynamic-airbyte-with-***' for task execution.
+[2025-08-28T12:01:29.071+0000] {http.py:208} WARNING - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) Tenacity will retry to execute the operation
+[2025-08-28T12:01:29.074+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.7/http/client.py", line 1373, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.7/http/client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.7/http/client.py", line 288, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.7/http/client.py", line 1373, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.7/http/client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.7/http/client.py", line 288, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/airbyte/operators/airbyte.py", line 80, in execute
+    self.hook.wait_for_job(job_id=self.job_id, wait_seconds=self.wait_seconds, timeout=self.timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/airbyte/hooks/airbyte.py", line 69, in wait_for_job
+    job = self.get_job(job_id=(int(job_id)))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/airbyte/hooks/airbyte.py", line 107, in get_job
+    headers={"accept": "application/json"},
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 151, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 209, in run_and_check
+    raise ex
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 201, in run_and_check
+    response = session.send(prepped_request, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2025-08-28T12:01:29.083+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=airbyte_dynamic_connection, task_id=trigger_airbyte_sync, execution_date=20250828T115915, start_date=20250828T115958, end_date=20250828T120129
+[2025-08-28T12:01:29.097+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 54 for task trigger_airbyte_sync (('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')); 3768)
+[2025-08-28T12:01:29.112+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2025-08-28T12:01:29.128+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

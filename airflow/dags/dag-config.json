@@ -1,0 +1,12 @@
+{
+  "workspaceId": "7b2e1eb9-5648-4d21-a7c1-291756135e2f",
+  "host": "host.docker.internal",
+  "database": "postgres",
+  "schema": "airbyte",
+  "username": "airbyte_user",
+  "password": "airbyte0825",
+  "sourceDefinitionId": "c8205d66-eacb-40c9-8a63-2924299f872a",
+  "start_date": "2025-03-01",
+  "end_date": "2025-03-08",
+  "table_prefix": "October_7th_"
+}

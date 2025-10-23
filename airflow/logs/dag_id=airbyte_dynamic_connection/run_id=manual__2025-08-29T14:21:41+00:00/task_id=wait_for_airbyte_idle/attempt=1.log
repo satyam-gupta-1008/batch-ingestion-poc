@@ -1,0 +1,26 @@
+[2025-08-29T14:23:38.409+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: airbyte_dynamic_connection.wait_for_airbyte_idle manual__2025-08-29T14:21:41+00:00 [queued]>
+[2025-08-29T14:23:38.412+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: airbyte_dynamic_connection.wait_for_airbyte_idle manual__2025-08-29T14:21:41+00:00 [queued]>
+[2025-08-29T14:23:38.412+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-29T14:23:38.413+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-08-29T14:23:38.413+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-08-29T14:23:38.418+0000] {taskinstance.py:1300} INFO - Executing <Task(AirbyteJobSensor): wait_for_airbyte_idle> on 2025-08-29 14:21:41+00:00
+[2025-08-29T14:23:38.420+0000] {standard_task_runner.py:55} INFO - Started process 19268 to run task
+[2025-08-29T14:23:38.422+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'airbyte_dynamic_connection', 'wait_for_airbyte_idle', 'manual__2025-08-29T14:21:41+00:00', '--job-id', '140', '--raw', '--subdir', 'DAGS_FOLDER/dynamic-airbyte-with-***.py', '--cfg-path', '/tmp/tmpam03iuf0']
+[2025-08-29T14:23:38.422+0000] {standard_task_runner.py:83} INFO - Job 140: Subtask wait_for_airbyte_idle
+[2025-08-29T14:23:38.450+0000] {task_command.py:388} INFO - Running <TaskInstance: airbyte_dynamic_connection.wait_for_airbyte_idle manual__2025-08-29T14:21:41+00:00 [running]> on host 966b32814b47
+[2025-08-29T14:23:38.482+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=airbyte_dynamic_connection
+AIRFLOW_CTX_TASK_ID=wait_for_airbyte_idle
+AIRFLOW_CTX_EXECUTION_DATE=2025-08-29T14:21:41+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-08-29T14:21:41+00:00
+[2025-08-29T14:23:38.571+0000] {dynamic-airbyte-with-airflow.py:102} INFO - Job(s) still running for connection 89794315-8a4f-499a-8be9-87767c995338
+[2025-08-29T14:23:58.632+0000] {dynamic-airbyte-with-airflow.py:102} INFO - Job(s) still running for connection 89794315-8a4f-499a-8be9-87767c995338
+[2025-08-29T14:24:18.701+0000] {dynamic-airbyte-with-airflow.py:105} INFO - No running jobs. Proceeding.
+[2025-08-29T14:24:18.703+0000] {base.py:228} INFO - Success criteria met. Exiting.
+[2025-08-29T14:24:18.711+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=airbyte_dynamic_connection, task_id=wait_for_airbyte_idle, execution_date=20250829T142141, start_date=20250829T142338, end_date=20250829T142418
+[2025-08-29T14:24:18.731+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-08-29T14:24:18.753+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

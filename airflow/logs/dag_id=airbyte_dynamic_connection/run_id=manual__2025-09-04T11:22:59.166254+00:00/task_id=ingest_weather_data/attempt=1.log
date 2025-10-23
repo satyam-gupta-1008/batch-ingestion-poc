@@ -1,0 +1,25 @@
+{"timestamp":"2025-09-04T11:23:00.529395","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-04T11:23:00.529996","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-04T11:23:01.390826","level":"info","event":"Trying to parse the dbt project using dbt ls cache cosmos_cache__airbyte_dynamic_connection__my_project_dbt_group_11...","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-04T11:23:01.451963","level":"info","event":"Cosmos performance: time to calculate cache identifier cosmos_cache__airbyte_dynamic_connection__my_project_dbt_group_11 for current version: 0.052816291979979724","logger":"cosmos.cache"}
+{"timestamp":"2025-09-04T11:23:01.452090","level":"info","event":"Cosmos performance [2b2e84620275|1460]: The cache size for cosmos_cache__airbyte_dynamic_connection__my_project_dbt_group_11 is 4335","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-04T11:23:01.452290","level":"info","event":"Cosmos performance: Cache hit for cosmos_cache__airbyte_dynamic_connection__my_project_dbt_group_11 - aad8d04d72ff7b6917b24f4cd2f34a0b,d41d8cd98f00b204e9800998ecf8427e","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-04T11:23:01.452641","level":"info","event":"Total nodes: 6","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-04T11:23:01.452676","level":"info","event":"Total filtered nodes: 6","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-04T11:23:01.452726","level":"info","event":"Cosmos performance (airbyte_dynamic_connection__my_project_dbt_group_11) -  [2b2e84620275|1460]: It took 0.062s to parse the dbt project for DAG using LoadMode.DBT_LS_CACHE","logger":"cosmos.converter"}
+{"timestamp":"2025-09-04T11:23:01.452924","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'dependencies.yml', 'packages.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-04T11:23:01.453693","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'dependencies.yml', 'packages.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-04T11:23:01.454776","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'dependencies.yml', 'packages.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-04T11:23:01.455158","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'dependencies.yml', 'packages.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-04T11:23:01.455527","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'dependencies.yml', 'packages.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-04T11:23:01.455856","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'dependencies.yml', 'packages.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-04T11:23:01.456139","level":"info","event":"Cosmos performance (airbyte_dynamic_connection__my_project_dbt_group_11) - [2b2e84620275|1460]: It took 0.00343s to build the Airflow DAG.","logger":"cosmos.converter"}
+{"timestamp":"2025-09-04T11:23:01.457251","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/pydantic/main.py:463: UserWarning: Pydantic serializer warnings:\n  PydanticSerializationUnexpectedValue(Expected `str` - serialized value may not be as expected [input_value={'version': 'aad8d04d72ff...y_project_dbt_group_11'}, input_type=dict])\n  return self.__pydantic_serializer__.to_python(\n","logger":"py.warnings"}
+{"timestamp":"2025-09-04T11:23:01.468212Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:23:01.468369Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:23:01.468473Z","level":"info","event":"Current task name:ingest_weather_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:23:01.468554Z","level":"info","event":"Dag name:airbyte_dynamic_connection","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:23:02.144821","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-04T11:23:02.156280Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:23:02.156501Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:23:02.156649Z","level":"info","event":"Task operator:<Task(PythonOperator): ingest_weather_data>","chan":"stdout","logger":"task"}

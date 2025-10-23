@@ -1,0 +1,210 @@
+version: 6.48.15
+
+type: DeclarativeSource
+
+check:
+  type: CheckStream
+  stream_names:
+    - weekly_split_with_full_refresh_test
+
+definitions:
+  streams:
+    weekly_split_with_full_refresh_test:
+      type: DeclarativeStream
+      name: weekly_split_with_full_refresh_test
+      retriever:
+        type: SimpleRetriever
+        requester:
+          $ref: "#/definitions/base_requester"
+          path: /api/cohorts/v1/data/app/com.planetart.fpuk
+          http_method: POST
+          request_headers:
+            Accept-Encoding: gzip
+          request_body_json:
+            to: "{{ stream_partition.end_date }}"
+            from: "{{ stream_partition.start_date }}"
+            kpis:
+              - af_purchase
+            filters:
+              period:
+                - 1
+                - 7
+                - 30
+                - 90
+            per_user: false
+            groupings:
+              - date
+              - pid
+              - geo
+              - c
+              - af_c_id
+            cohort_type: unified
+            aggregation_type: cumulative
+        record_selector:
+          type: RecordSelector
+          extractor:
+            type: DpathExtractor
+            field_path: []
+        partition_router:
+          type: CustomPartitionRouter
+          class_name: source_declarative_manifest.components.DateRangePartitionRouter
+          parameters:
+            step_days: 2
+        decoder:
+          type: GzipDecoder
+          decoder:
+            type: CsvDecoder
+      schema_loader:
+        type: InlineSchemaLoader
+        schema:
+          $ref: "#/schemas/weekly_split_with_full_refresh_test"
+  base_requester:
+    type: HttpRequester
+    url_base: https://hq1.appsflyer.com
+    authenticator:
+      type: BearerAuthenticator
+      api_token: "{{ config[\"api_key\"] }}"
+
+streams:
+  - $ref: "#/definitions/streams/weekly_split_with_full_refresh_test"
+
+spec:
+  type: Spec
+  connection_specification:
+    type: object
+    $schema: http://json-schema.org/draft-07/schema#
+    required:
+      - api_key
+      - start_date
+      - end_date
+    properties:
+      api_key:
+        type: string
+        order: 0
+        title: API Key
+        airbyte_secret: true
+      start_date:
+        type: string
+        title: start_date
+        order: 1
+      end_date:
+        type: string
+        title: end_date
+        order: 2
+    additionalProperties: true
+
+metadata:
+  autoImportSchema:
+    weekly_split_with_full_refresh_test: true
+  testedStreams:
+    weekly_split_with_full_refresh_test:
+      hasRecords: true
+      streamHash: 9000cbbf91a715f8d5f82a7d500e7b5d07a57972
+      hasResponse: true
+      primaryKeysAreUnique: true
+      primaryKeysArePresent: true
+      responsesAreSuccessful: true
+  assist: {}
+
+schemas:
+  weekly_split_with_full_refresh_test:
+    type: object
+    $schema: http://json-schema.org/schema#
+    additionalProperties: true
+    properties:
+      af_c_id:
+        type:
+          - string
+          - "null"
+      af_purchase_conversion_rate_day_1:
+        type:
+          - string
+          - "null"
+      af_purchase_conversion_rate_day_30:
+        type:
+          - string
+          - "null"
+      af_purchase_conversion_rate_day_7:
+        type:
+          - string
+          - "null"
+      af_purchase_conversion_rate_day_90:
+        type:
+          - string
+          - "null"
+      af_purchase_count_day_1:
+        type:
+          - string
+          - "null"
+      af_purchase_count_day_30:
+        type:
+          - string
+          - "null"
+      af_purchase_count_day_7:
+        type:
+          - string
+          - "null"
+      af_purchase_count_day_90:
+        type:
+          - string
+          - "null"
+      af_purchase_sum_day_1:
+        type:
+          - string
+          - "null"
+      af_purchase_sum_day_30:
+        type:
+          - string
+          - "null"
+      af_purchase_sum_day_7:
+        type:
+          - string
+          - "null"
+      af_purchase_sum_day_90:
+        type:
+          - string
+          - "null"
+      af_purchase_unique_users_day_1:
+        type:
+          - string
+          - "null"
+      af_purchase_unique_users_day_30:
+        type:
+          - string
+          - "null"
+      af_purchase_unique_users_day_7:
+        type:
+          - string
+          - "null"
+      af_purchase_unique_users_day_90:
+        type:
+          - string
+          - "null"
+      c:
+        type:
+          - string
+          - "null"
+      cost:
+        type:
+          - string
+          - "null"
+      date:
+        type:
+          - string
+          - "null"
+      ecpi:
+        type:
+          - string
+          - "null"
+      geo:
+        type:
+          - string
+          - "null"
+      pid:
+        type:
+          - string
+          - "null"
+      users:
+        type:
+          - string
+          - "null"

@@ -1,0 +1,44 @@
+{"timestamp":"2025-09-04T11:44:12.599793","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-04T11:44:12.600290","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dynamic-airbyte-with-airflow.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-04T11:44:13.227363","level":"info","event":"Trying to parse the dbt project using dbt ls cache cosmos_cache__airbyte_dynamic_connection__my_project_dbt_group_11...","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-04T11:44:13.264493","level":"info","event":"Cosmos performance: time to calculate cache identifier cosmos_cache__airbyte_dynamic_connection__my_project_dbt_group_11 for current version: 0.030329500004881993","logger":"cosmos.cache"}
+{"timestamp":"2025-09-04T11:44:13.264577","level":"info","event":"Cosmos performance [2b2e84620275|2262]: The cache size for cosmos_cache__airbyte_dynamic_connection__my_project_dbt_group_11 is 4337","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-04T11:44:13.264721","level":"info","event":"Cosmos performance: Cache hit for cosmos_cache__airbyte_dynamic_connection__my_project_dbt_group_11 - 2499a7507d070b7bbbbe009f3f50a3a8,d41d8cd98f00b204e9800998ecf8427e","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-04T11:44:13.265048","level":"info","event":"Total nodes: 6","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-04T11:44:13.265080","level":"info","event":"Total filtered nodes: 6","logger":"cosmos.dbt.graph"}
+{"timestamp":"2025-09-04T11:44:13.265111","level":"info","event":"Cosmos performance (airbyte_dynamic_connection__my_project_dbt_group_11) -  [2b2e84620275|2262]: It took 0.0378s to parse the dbt project for DAG using LoadMode.DBT_LS_CACHE","logger":"cosmos.converter"}
+{"timestamp":"2025-09-04T11:44:13.265298","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'dependencies.yml', 'packages.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-04T11:44:13.265750","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'dependencies.yml', 'packages.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-04T11:44:13.266366","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'dependencies.yml', 'packages.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-04T11:44:13.266759","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'dependencies.yml', 'packages.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-04T11:44:13.267155","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'dependencies.yml', 'packages.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-04T11:44:13.267514","level":"info","event":"Project /opt/airflow/dbt/my_project_dbt does not have {'dependencies.yml', 'packages.yml'}","logger":"cosmos.dbt.project"}
+{"timestamp":"2025-09-04T11:44:13.267766","level":"info","event":"Cosmos performance (airbyte_dynamic_connection__my_project_dbt_group_11) - [2b2e84620275|2262]: It took 0.00266s to build the Airflow DAG.","logger":"cosmos.converter"}
+{"timestamp":"2025-09-04T11:44:13.268314","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/pydantic/main.py:463: UserWarning: Pydantic serializer warnings:\n  PydanticSerializationUnexpectedValue(Expected `str` - serialized value may not be as expected [input_value={'version': '2499a7507d07...y_project_dbt_group_11'}, input_type=dict])\n  return self.__pydantic_serializer__.to_python(\n","logger":"py.warnings"}
+{"timestamp":"2025-09-04T11:44:13.278512Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:13.278638Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:13.278735Z","level":"info","event":"Current task name:my_project_dbt_group_11.daily_max_run","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:13.278876Z","level":"info","event":"Dag name:airbyte_dynamic_connection","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:13.872517","level":"info","event":"dbtRunner is available. Using dbtRunner for invoking dbt.","logger":"cosmos.operators.base"}
+{"timestamp":"2025-09-04T11:44:13.872830","level":"info","event":"Cloning project to writable temp directory /tmp/tmpk4xsw23g from /opt/airflow/dbt/my_project_dbt","logger":"cosmos.operators.base"}
+{"timestamp":"2025-09-04T11:44:13.873809","level":"info","event":"Partial parse is enabled and the latest partial parse file is /tmp/cosmos/airbyte_dynamic_connection__my_project_dbt_group_11/target/partial_parse.msgpack","logger":"cosmos.operators.base"}
+{"timestamp":"2025-09-04T11:44:13.876100","level":"info","event":"Profile caching is enable.","logger":"cosmos.config"}
+{"timestamp":"2025-09-04T11:44:13.880635","level":"info","event":"Connection Retrieved 'test-airbyte-and-dbt-with-airflow'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-09-04T11:44:13.880799","level":"info","event":"Profile found in cache using profile: /tmp/cosmos/profile/2a376c19ef40c3750992fe5768e4b9f3d630cca0747e23a4e93687cdf8a5749c/profiles.yml.","logger":"cosmos.config"}
+{"timestamp":"2025-09-04T11:44:13.881044","level":"info","event":"Trying to run dbtRunner with:\n ['run', '--select', 'daily_max', '--project-dir', '/tmp/tmpk4xsw23g', '--profiles-dir', '/tmp/cosmos/profile/2a376c19ef40c3750992fe5768e4b9f3d630cca0747e23a4e93687cdf8a5749c', '--profile', 'dbt_postgres_profile', '--target', 'dev', '--no-static-parser']\n in /tmp/tmpk4xsw23g","logger":"cosmos.dbt.runner"}
+{"timestamp":"2025-09-04T11:44:13.902297Z","level":"info","event":"\u001b[0m11:44:13  Running with dbt=1.8.2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:14.060450Z","level":"info","event":"\u001b[0m11:44:14  Registered adapter: postgres=1.8.2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:14.489911Z","level":"info","event":"\u001b[0m11:44:14  Found 5 models, 1 source, 428 macros","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:14.490771Z","level":"info","event":"\u001b[0m11:44:14","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:14.549340Z","level":"info","event":"\u001b[0m11:44:14  Concurrency: 1 threads (target='dev')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:14.549626Z","level":"info","event":"\u001b[0m11:44:14","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:14.567716Z","level":"info","event":"\u001b[0m11:44:14","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:14.567906Z","level":"info","event":"\u001b[0m11:44:14  Finished running  in 0 hours 0 minutes and 0.08 seconds (0.08s).","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:15.761989","level":"info","event":"Inlets: []","logger":"cosmos.operators.base"}
+{"timestamp":"2025-09-04T11:44:15.762224","level":"info","event":"Outlets: []","logger":"cosmos.operators.base"}
+{"timestamp":"2025-09-04T11:44:15.762442","level":"info","event":"Assigning outlets with DatasetAlias in Airflow 3","logger":"cosmos.operators.local"}
+{"timestamp":"2025-09-04T11:44:15.792012Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:15.792214Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:15.792443Z","level":"info","event":"Task operator:<Task(DbtRunLocalOperator): my_project_dbt_group_11.daily_max_run>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-04T11:44:15.814901Z","level":"error","event":"/usr/local/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown","chan":"stderr","logger":"task"}
+{"timestamp":"2025-09-04T11:44:15.815115Z","level":"error","event":"  warnings.warn('resource_tracker: There appear to be %d '","chan":"stderr","logger":"task"}
